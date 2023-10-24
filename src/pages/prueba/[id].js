@@ -1,6 +1,8 @@
 import { useState } from "react";
 
-export const runtime = "edge";
+export const config = {
+  runtime: "edge",
+};
 
 export default function PruebaPage({ prueba, id }) {
   const p = JSON.parse(prueba);
